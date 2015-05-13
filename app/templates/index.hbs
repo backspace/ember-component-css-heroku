@@ -2,7 +2,7 @@ People:
 
 <ul>
   {{#each person in model}}
-    <li>{{person.name}}</li>
+    <li>{{name-badge person=person}}</li>
   {{/each}}
 </ul>
 {{outlet}}
